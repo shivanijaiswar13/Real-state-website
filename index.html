@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- font-awesome-cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- header section -->
+     <header>
+     <a href="#" class="logo"><span>real</span>EState</a>
+     <nav class="navbar">
+        <a href="#">home</a>
+        <a href="#">services</a>
+        <a href="#">featured</a>
+        <a href="#">agents</a>
+        <a href="#">contact</a>
+     </nav>
+
+     <div class="icons">
+        <div id="menubar" class="fa-solid fa-bars" ></div>
+        <a href="#"  class="fa-regular fa-heart"></a>
+        <a href="#"  class="fa-regular fa-user"></a>
+     </div>
+
+     </header>
+
+     <!-- home section -->
+
+     <section class="home">
+
+        <form action="">
+            <h3>find your perfect home</h3>
+            <div class="buttons-container">
+                <a href="#" class="btn">for rent</a>
+                <a href="#" class="btn">for sell</a>
+            </div>
+            <div class="inputbox">
+                
+                <input type="search" name="" placeholder="neighbourhood">
+                <input type="search" name="" placeholder="city">
+                <select name="" id="">
+                    <option value="" disabled hidden selected>minimum price</option>
+                    <option value="$5000">$5000</option>
+                    <option value="$10000">$10000</option>
+                    <option value="$15000">$15000</option>
+                    <option value="$20000">$20000</option>
+                    <option value="$25000">$25000</option>
+
+                </select>
+                <select name="" id="">
+                    <option value="" disabled hidden selected>maximum price</option>
+                    <option value="$30000">$30000</option>
+                    <option value="$35000">$35000</option>
+                    <option value="$40000">$40000</option>
+                    <option value="$45000">$45000</option>
+                    <option value="$50000">$50000</option>
+
+                </select>
+                <select name="" id="">
+                    <option value="" disabled hidden selected>property status</option>
+                    <option value="ready to move">ready to move</option>
+                    <option value="under construction">under construction</option>
+                    <option value="furnished">furnished</option>
+                    <option value="semi-furnished">semi-furnished</option>
+                    <option value="unfurnished">unfurnished</option>
+
+                </select>
+
+                <select name="" id="">
+                    <option value="" disabled hidden selected>property type</option>
+                    <option value="flat">flat</option>
+                    <option value="house">house</option>
+                    <option value="shop">shop</option>
+                    <option value="warehouse">warehouse</option>
+                    <option value="land">land</option>
+
+                </select>
+                <select name="" id="">
+                    <option value="" disabled hidden selected>BHK</option>
+                    <option value="1 BHK">1BHK</option>
+                    <option value="2 BHK">2BHK</option>
+                    <option value="3 BHK">3BHK</option>
+                    <option value="4 BHK">4BHK</option>
+                    <option value="5 BHK">5BHK</option>
+
+                </select>
+
+                <select name="" id="">
+                    <option value="" disabled hidden selected>Amenities</option>
+                    <option value="parking space">parking space</option>
+                    <option value="swimming pool">swimming pool</option>
+                    <option value="playground">playground</option>
+                    <option value="security">security</option>
+                    <option value="all">all</option>
+                </select>
+
+                <select name="" id="">
+                    <option value="" disabled hidden selected>Bedrooms</option>
+                    <option value="1 Bedroom">1Bedroom</option>
+                    <option value="2 Bedrooms">2Bedrooms</option>
+                    <option value="3 Bedrooms">3Bedrooms</option>
+                    <option value="4 Bedrooms">4Bedrooms</option>
+                    <option value="5 Bedrooms">5Bedrooms</option>
+
+                </select>
+                <select name="" id="">
+                    <option value="" disabled hidden selected>bathroom</option>
+                    <option value="1 bathroom">1 bathroom</option>
+                    <option value="2 bathroom">2 bathroom</option>
+                    <option value="3 bathroom">3 bathroom</option>
+                    <option value="4 bathroom">4 bathroom</option>
+                    <option value="5 bathroom">5 bathroom</option>
+
+                </select>
+
+            </div>
+            <input type="submit" value="search property" class="btn">
+
+
+        </form>
+     </section>
+     <!-- service section start -->
+
+     <section class="services">
+
+        <h1 class="heading">our <span>services</span></h1>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="" alt="">
+                <h3>buying home</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque vero autem sed corrupti minus quae pariatur et animi, tempore natus.</p>
+                <a href="#" class="btn"></a>
+            </div>
+        </div>
+     </section>
+
+
+
+
+       <!-- javascript part -->
+        <script>
+            let menu = document.querySelector('#menubar');
+            let navbar = document.querySelector('.navbar');
+            menu.onclick = () => {
+                navbar.classlist.toggle('active');
+            }
+        </script>
+</body>
+</html>
