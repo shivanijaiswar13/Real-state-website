@@ -102,7 +102,7 @@ section{
 }
 .home{
     min-height: 100vh;
-    background: palegreen;
+    background: url(images/image18.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -113,7 +113,8 @@ section{
 }
 .home form{
     margin-top: 7rem;
-    background: #fff;
+    background: transparent;
+    backdrop-filter: blur(2px);
     border-radius: .5rem;
     box-shadow: 0  .5rem 1rem rgba(0,0, 0,.2);
     border: .1rem solid rgba(0,0, 0,.2);
@@ -129,8 +130,6 @@ section{
 .home form .buttons-container{
     display: flex;
     gap: 1.5rem;
-
-
 }
 .home form .buttons-container .btn{
     flex: 1;
